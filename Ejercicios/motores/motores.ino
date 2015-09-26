@@ -1,9 +1,9 @@
 #include <AccelStepper.h>
 #define HALFSTEP 8
-#define motorPin1 3
-#define motorPin2 4
-#define motorPin3 5
-#define motorPin4 6
+#define motorPin1 1
+#define motorPin2 2
+#define motorPin3 3
+#define motorPin4 4
 AccelStepper stepper1(HALFSTEP,motorPin1,motorPin3,motorPin2,motorPin4);
 void setup() {
   stepper1.setMaxSpeed(1000.0);
